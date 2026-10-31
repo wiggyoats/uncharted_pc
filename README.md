@@ -1,5 +1,28 @@
 # Uncharted: The Nathan Drake Collection for Windows
 
+> ## 🎮 Steam Deck optimized fork
+>
+> This is a fork of [SuperMedo's port](https://github.com/Supermedo/uncharted_pc) tuned for the
+> **Steam Deck**. Instead of running the Windows build through Proton, it runs the port's **native
+> Linux build** as an AppImage, at the Deck's own **1280×800 (16:10)** with 120 Hz game timing.
+>
+> | Steam Deck FPS | Windows build under Proton | This fork (native) |
+> |---|---|---|
+> | Uncharted 1 | 47–55 | 53–62 |
+> | Uncharted 2 | 35 | 63–68 |
+> | Uncharted 3 | 45–55 | 49–62 |
+>
+> - **Download:** `Uncharted-SteamDeck-x86_64.AppImage` from this fork's
+>   [Releases](https://github.com/wiggyoats/uncharted_pc/releases) or the latest
+>   [Steam Deck AppImage build](https://github.com/wiggyoats/uncharted_pc/actions/workflows/steamdeck.yml).
+>   The Windows package is built too ([Windows build](https://github.com/wiggyoats/uncharted_pc/actions/workflows/windows.yml)).
+> - **Set-up:** [docs/STEAM_DECK.md](docs/STEAM_DECK.md): add `packaging/steamdeck/play.sh` to Steam
+>   as a non-Steam game, point it at your game folder, and launch it from Gaming Mode as usual.
+> - All the credit for the port itself goes to SuperMedo and the people credited below. These
+>   changes are also offered upstream as a pull request.
+>
+> The original README follows.
+
 **Uncharted 1, 2 and 3 from the PS4 collection running natively on Windows 10 and 11, by [SuperMedo](https://github.com/Supermedo).** Mohammed Albarghouthi
 
 Same idea as my [Bloodborne port](https://github.com/Supermedo/bloodborne_pc): the original PS4 game
